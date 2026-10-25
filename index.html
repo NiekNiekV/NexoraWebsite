@@ -1,0 +1,186 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nexora Launcher | Official Website</title>
+  <style>
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      background: #09090e;
+      color: white;
+      font-family: Arial, sans-serif;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 24px 8%;
+      border-bottom: 1px solid #29212a;
+    }
+
+    .logo {
+      font-size: 27px;
+      font-weight: 900;
+      letter-spacing: 3px;
+      color: #ef4444;
+    }
+
+    nav a {
+      color: #ccc;
+      text-decoration: none;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 110px 20px 100px;
+      background: radial-gradient(
+        ellipse at top,
+        #351016 0%,
+        #09090e 65%
+      );
+    }
+
+    .tag {
+      color: #f87171;
+      letter-spacing: 3px;
+      font-size: 12px;
+      font-weight: bold;
+    }
+
+    h1 {
+      font-size: clamp(42px, 7vw, 76px);
+      margin: 22px 0;
+    }
+
+    h1 span { color: #ef4444; }
+
+    .hero p {
+      color: #a1a1aa;
+      font-size: 18px;
+      max-width: 560px;
+      margin: 0 auto 35px;
+      line-height: 1.7;
+    }
+
+    .download {
+      display: inline-block;
+      background: #dc2626;
+      color: white;
+      padding: 18px 35px;
+      border-radius: 9px;
+      font-weight: bold;
+      text-decoration: none;
+      box-shadow: 0 0 30px #dc262644;
+      transition: 0.2s;
+    }
+
+    .download:hover {
+      background: #ef4444;
+      transform: translateY(-3px);
+    }
+
+    .small {
+      color: #777;
+      margin-top: 20px;
+      font-size: 13px;
+    }
+
+    .features {
+      display: grid;
+      grid-template-columns: repeat(
+        auto-fit, minmax(220px, 1fr)
+      );
+      gap: 22px;
+      max-width: 1050px;
+      margin: 0 auto;
+      padding: 55px 25px 100px;
+    }
+
+    .card {
+      background: #15151d;
+      border: 1px solid #29212a;
+      border-radius: 14px;
+      padding: 30px;
+    }
+
+    .card .symbol {
+      color: #ef4444;
+      font-size: 30px;
+    }
+
+    .card h3 { margin-top: 20px; }
+
+    .card p {
+      color: #a1a1aa;
+      line-height: 1.6;
+    }
+
+    footer {
+      text-align: center;
+      color: #777;
+      padding: 35px;
+      border-top: 1px solid #29212a;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <div class="logo">NEXORA</div>
+    <a href="https://github.com/NiekNiekV/NexoraLauncher">
+      GitHub
+    </a>
+  </nav>
+
+  <section class="hero">
+    <div class="tag">THE NEXT LEVEL OF MINECRAFT</div>
+
+    <h1>YOUR GAME.<br><span>YOUR RULES.</span></h1>
+
+    <p>
+      Meet Nexora Launcher. A modern Minecraft Java
+      launcher with Fabric support, mod management
+      and a sleek gaming experience.
+    </p>
+
+    <a class="download"
+       href="https://github.com/NiekNiekV/NexoraLauncher/releases">
+      ↓ DOWNLOAD FOR WINDOWS
+    </a>
+
+    <div class="small">
+      Official releases • Minecraft Java Edition
+    </div>
+  </section>
+
+  <section class="features">
+    <div class="card">
+      <div class="symbol">⚡</div>
+      <h3>FAST LAUNCH</h3>
+      <p>Launch Minecraft from one modern interface.</p>
+    </div>
+
+    <div class="card">
+      <div class="symbol">◈</div>
+      <h3>MOD MANAGER</h3>
+      <p>Manage your Minecraft mods with Nexora.</p>
+    </div>
+
+    <div class="card">
+      <div class="symbol">↻</div>
+      <h3>UPDATE CHECKER</h3>
+      <p>Check GitHub for official Nexora releases.</p>
+    </div>
+  </section>
+
+  <footer>
+    © 2026 Nexora Launcher. Not affiliated with Mojang or Microsoft.
+  </footer>
+
+</body>
+</html>
